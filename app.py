@@ -248,6 +248,3 @@ def eliminarProducto():
     con.close()
 
     return make_response(jsonify({}))
-
-
-
